@@ -16,7 +16,7 @@ INDEPENDENT_CLAIM_SCOPE = (
     "independent_tensor_regression_diffusion_mode_not_bitwise_training_parity"
 )
 _CORE_VERSION = "0.17.0"
-_PACKAGE_VERSION = "0.4.0"
+_PACKAGE_VERSION = "0.5.1"
 _HEX_64 = re.compile(r"^[0-9a-f]{64}$")
 _DISTRIBUTED_CHECKPOINT_MANIFEST = "independent-checkpoint-manifest.json"
 

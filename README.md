@@ -66,16 +66,17 @@ positive and negative record.
 ## Install
 
 ```bash
-git clone https://github.com/Alfalfa-Labs-Inc/ExactGraph.git
-python -m pip install ./ExactGraph
+python -m pip install \
+  https://github.com/oramada/ZeroGraph/releases/download/v0.5.0/diffusionblocks_v5-0.17.0-py3-none-any.whl
 
 git clone https://github.com/oramada/ZeroGraph.git
 python -m pip install -e './ZeroGraph[dev]'
 ```
 
-The distribution name remains `diffusionblocks-independent`. Version 0.5.0
-depends on `diffusionblocks-v5==0.17.0` for the guarded partition/compiler
-runtime. Both `zerograph` and `diffusionblocks-independent` invoke the CLI.
+The distribution name remains `diffusionblocks-independent`. Version 0.5.1
+uses the signed `diffusionblocks-v5==0.17.0` release wheel for the guarded
+partition/compiler runtime. Both `zerograph` and
+`diffusionblocks-independent` invoke the CLI.
 
 ## Python quick start
 

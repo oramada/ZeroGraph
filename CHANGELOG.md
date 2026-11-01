@@ -3,6 +3,14 @@
 All notable changes are documented here. This project follows semantic
 versioning once the public API is declared stable.
 
+## 0.5.1 - 2026-11-01
+
+- Repointed package metadata, badges, and installation instructions to the
+  public `oramada/ZeroGraph` repository.
+- Made the signed `diffusionblocks-v5==0.17.0` core wheel publicly installable
+  from the ZeroGraph release instead of relying on a private Git repository.
+- Updated public integration CI to exercise the public release dependency.
+
 ## 0.5.0 - 2026-09-15
 
 - Added the verified nine-phase Qwen2.5 campaign and IEEE paper.

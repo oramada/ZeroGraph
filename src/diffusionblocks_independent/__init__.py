@@ -27,7 +27,7 @@ from .materialized import (
     train_materialized_block,
 )
 
-__version__ = "0.4.0"
+__version__ = "0.5.1"
 
 __all__ = [
     "INDEPENDENT_CLAIM_SCOPE",

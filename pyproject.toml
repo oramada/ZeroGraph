@@ -4,14 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "diffusionblocks-independent"
-version = "0.5.0"
+version = "0.5.1"
 description = "ZeroGraph: independent block training with materialized supervision"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
 authors = [{name = "Alfalfa Labs, Inc."}]
 keywords = ["pytorch", "distributed-training", "blockwise-learning", "diffusion", "machine-learning"]
-dependencies = ["diffusionblocks-v5==0.17.0"]
+dependencies = [
+  "diffusionblocks-v5 @ https://github.com/oramada/ZeroGraph/releases/download/v0.5.0/diffusionblocks_v5-0.17.0-py3-none-any.whl",
+]
 
 [project.optional-dependencies]
 dev = ["build>=1.3", "pytest>=9.0"]
