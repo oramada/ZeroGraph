@@ -6,7 +6,7 @@
 
 Clean teacher-boundary supervision for independently schedulable PyTorch jobs.
 
-[![CI](https://github.com/Alfalfa-Labs-Inc/ZeroGraph/actions/workflows/ci.yml/badge.svg)](https://github.com/Alfalfa-Labs-Inc/ZeroGraph/actions/workflows/ci.yml)
+[![CI](https://github.com/oramada/ZeroGraph/actions/workflows/ci.yml/badge.svg)](https://github.com/oramada/ZeroGraph/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.5%2B-EE4C2C.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
@@ -69,7 +69,7 @@ positive and negative record.
 git clone https://github.com/Alfalfa-Labs-Inc/ExactGraph.git
 python -m pip install ./ExactGraph
 
-git clone https://github.com/Alfalfa-Labs-Inc/ZeroGraph.git
+git clone https://github.com/oramada/ZeroGraph.git
 python -m pip install -e './ZeroGraph[dev]'
 ```
 

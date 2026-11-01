@@ -21,10 +21,10 @@ diffusionblocks-independent = "diffusionblocks_independent.cli:main"
 zerograph = "diffusionblocks_independent.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Alfalfa-Labs-Inc/ZeroGraph"
-Repository = "https://github.com/Alfalfa-Labs-Inc/ZeroGraph"
-Issues = "https://github.com/Alfalfa-Labs-Inc/ZeroGraph/issues"
-Changelog = "https://github.com/Alfalfa-Labs-Inc/ZeroGraph/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/oramada/ZeroGraph"
+Repository = "https://github.com/oramada/ZeroGraph"
+Issues = "https://github.com/oramada/ZeroGraph/issues"
+Changelog = "https://github.com/oramada/ZeroGraph/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["src"]
